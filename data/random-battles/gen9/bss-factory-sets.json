@@ -4,7 +4,7 @@
       "sets": [
           {
               "species": "Chien-Pao",
-              "weight": 35,
+              "weight": 40,
               "moves": [
                   ["Icicle Crash"],
                   ["Sucker Punch"],
@@ -98,22 +98,6 @@
           },
           {
               "species": "Chien-Pao",
-              "weight": 5,
-              "moves": [
-                  ["Icicle Crash"],
-                  ["Recover"],
-                  ["Ice Shard", "Sucker Punch"],
-                  ["Sacred Sword"]
-              ],
-              "item": ["Rocky Helmet"],
-              "nature": "Jolly",
-              "evs": {"hp": 252, "atk": 68, "def": 180, "spd": 4, "spe": 4},
-              "teraType": ["Fairy", "Poison"],
-              "wantsTera": true,
-              "ability": ["Sword of Ruin"]
-          },
-          {
-              "species": "Chien-Pao",
               "weight": 15,
               "moves": [
                   ["Swords Dance"],
@@ -135,7 +119,7 @@
       "sets": [
           {
               "species": "Dragonite",
-              "weight": 40,
+              "weight": 20,
               "moves": [
                   ["Extreme Speed"],
                   ["Earthquake"],
@@ -199,7 +183,7 @@
           },
           {
               "species": "Dragonite",
-              "weight": 5,
+              "weight": 25,
               "moves": [
                   ["Air Slash"],
                   ["Encore", "Substitute"],
@@ -216,7 +200,7 @@
           },
           {
               "species": "Dragonite",
-              "weight": 20,
+              "weight": 25,
               "moves": [
                   ["Scale Shot"],
                   ["Iron Head"],
@@ -230,22 +214,6 @@
               "wantsTera": true,
               "ability": ["Multiscale"]
           },
-          {
-              "species": "Dragonite",
-              "weight": 5,
-              "moves": [
-                  ["Fire Spin"],
-                  ["Earthquake", "Thunder Wave"],
-                  ["Roost"],
-                  ["Encore"]
-              ],
-              "item": ["Leftovers"],
-              "nature": "Careful",
-              "evs": {"hp": 244, "atk": 12, "spd": 252},
-              "teraType": ["Fairy", "Poison", "Steel"],
-              "wantsTera": true,
-              "ability": ["Multiscale"]
-          }
       ]
   },
   "fluttermane": {
@@ -868,7 +836,7 @@
               "species": "Gholdengo",
               "weight": 15,
               "moves": [
-                  ["Focus Blast", "Make It Rain"],
+                  ["Make It Rain"],
                   ["Hex"],
                   ["Thunder Wave"],
                   ["Recover"]
@@ -1664,7 +1632,7 @@
           },
           {
               "species": "Baxcalibur",
-              "weight": 75,
+              "weight": 50,
               "moves": [
                   ["Ice Shard", "Scale Shot"],
                   ["Icicle Spear"],
@@ -1680,7 +1648,7 @@
           },
           {
               "species": "Baxcalibur",
-              "weight": 10,
+              "weight": 25,
               "moves": [
                   ["Icicle Crash", "Icicle Spear"],
                   ["Ice Shard"],
@@ -1696,7 +1664,7 @@
           },
           {
               "species": "Baxcalibur",
-              "weight": 5,
+              "weight": 15,
               "moves": [
                   ["Icicle Spear"],
                   ["Ice Shard"],
@@ -1784,12 +1752,28 @@
       "sets": [
           {
               "species": "Ogerpon-Cornerstone",
-              "weight": 100,
+              "weight": 50,
+              "moves": [
+                  ["Ivy Cudgel"],
+                  ["Horn Leech", "Power Whip"],
+                  ["Knock Off", "Superpower"],
+                  ["Swords Dance"]
+              ],
+              "gender": "F",
+              "item": ["Cornerstone Mask"],
+              "nature": "Jolly",
+              "evs": {"hp": 4, "atk": 252, "spe": 252},
+              "teraType": ["Rock"],
+              "ability": ["Sturdy"]
+          }
+                  {
+              "species": "Ogerpon-Cornerstone",
+              "weight": 50,
               "moves": [
                   ["Ivy Cudgel"],
                   ["Horn Leech"],
                   ["Encore", "Knock Off"],
-                  ["Quick Attack", "Rock Tomb", "Swords Dance"]
+                  ["Quick Attack", "Rock Tomb", "Swords Dance", "Superpower"]
               ],
               "gender": "F",
               "item": ["Cornerstone Mask"],
@@ -1805,7 +1789,7 @@
       "sets": [
           {
               "species": "Ogerpon-Wellspring",
-              "weight": 60,
+              "weight": 40,
               "moves": [
                   ["Ivy Cudgel"],
                   ["Horn Leech", "Leech Seed"],
@@ -1821,7 +1805,7 @@
           },
           {
               "species": "Ogerpon-Wellspring",
-              "weight": 40,
+              "weight": 60,
               "moves": [
                   ["Ivy Cudgel"],
                   ["Horn Leech"],
@@ -2079,7 +2063,7 @@
       "sets": [
           {
               "species": "Cresselia",
-              "weight": 60,
+              "weight": 70,
               "moves": [
                   ["Stored Power"],
                   ["Moonblast"],
@@ -2096,7 +2080,7 @@
           },
           {
               "species": "Cresselia",
-              "weight": 40,
+              "weight": 30,
               "moves": [
                   ["Ice Beam", "Moonblast"],
                   ["Thunder Wave", "Trick Room"],
@@ -2309,14 +2293,14 @@
               "species": "Mimikyu",
               "weight": 5,
               "moves": [
-                  ["Play Rough"],
+                  ["Substitute"],
                   ["Curse"],
-                  ["Trick Room"],
-                  ["Shadow Sneak"]
+                  ["Shadow Sneak", "Play Rough"],
+                  ["Phantom Force"]
               ],
-              "item": ["Covert Cloak"],
+              "item": ["Custap Berry", "Salac Berry", "Liechi Berry"],
               "nature": "Adamant",
-              "evs": {"hp": 36, "atk": 236, "def": 180, "spd": 4, "spe": 52},
+              "evs": {"hp": 0, "atk": 252, "def": 0, "spd": 4, "spe": 252},
               "teraType": ["Fairy", "Ghost"],
               "ability": ["Disguise"]
           },
@@ -3917,7 +3901,7 @@
               "weight": 10,
               "moves": [
                   ["Lumina Crash"],
-                  ["Energy Ball"],
+                  ["Dazzling Gleam"],
                   ["Shadow Ball"],
                   ["Baton Pass", "Hypnosis"]
               ],
@@ -4323,7 +4307,7 @@
                   ["Knock Off"],
                   ["Ice Punch", "Poison Jab", "Substitute", "Taunt"]
               ],
-              "item": ["Black Sludge", "Leftovers", "Rocky Helmet"],
+              "item": ["Leftovers", "Rocky Helmet"],
               "nature": "Adamant",
               "evs": {"hp": 252, "atk": 156, "spe": 100},
               "teraType": ["Flying", "Poison", "Water"],
@@ -4382,14 +4366,30 @@
           },
           {
               "species": "Arcanine-Hisui",
-              "weight": 50,
+              "weight": 25,
               "moves": [
                   ["Head Smash"],
                   ["Flare Blitz"],
                   ["Extreme Speed"],
-                  ["Flame Charge", "Stealth Rock", "Wild Charge"]
+                  ["Flame Charge", "Wild Charge"]
               ],
-              "item": ["Choice Band", "Focus Sash"],
+              "item": ["Choice Band"],
+              "nature": "Jolly",
+              "evs": {"atk": 252, "spd": 4, "spe": 252},
+              "teraType": ["Normal", "Rock"],
+              "wantsTera": true,
+              "ability": ["Rock Head"]
+          },
+          {
+              "species": "Arcanine-Hisui",
+              "weight": 25,
+              "moves": [
+                  ["Head Smash"],
+                  ["Flare Blitz"],
+                  ["Extreme Speed"],
+                  ["Stealth Rock"]
+              ],
+              "item": ["Focus Sash"],
               "nature": "Jolly",
               "evs": {"atk": 252, "spd": 4, "spe": 252},
               "teraType": ["Normal", "Rock"],
